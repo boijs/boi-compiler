@@ -1,0 +1,16 @@
+{
+  "name": "boi-parser",
+  "version": "0.0.1",
+  "description": "boi parser",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "boi"
+  ],
+  "author": "zhoujunpeng <zjp0432@163.com> (http://caiziguoguo.com)",
+  "license": "MIT",
+  "dependencies": {
+    "shelljs": "^0.7.8",
+    "webpack": "^3.7.1"
+  }
+}
