@@ -1,15 +1,19 @@
 {
-  "name": "boi-parser",
+  "name": "boi-compiler",
   "version": "0.0.1",
-  "description": "boi parser",
-  "main": "index.js",
-  "scripts": {},
+  "description": "boi compiler",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib"
+  },
   "keywords": [
     "boi"
   ],
-  "author": "zhoujunpeng <zjp0432@163.com> (http://caiziguoguo.com)",
+  "author": "zhoujunpeng <zjp0432@163.com>",
   "license": "MIT",
   "dependencies": {
+    "boi-aux-autoinstall": "^1.0.1",
+    "boi-utils": "0.0.2",
     "shelljs": "^0.7.8",
     "webpack": "^3.7.1"
   }
