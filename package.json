@@ -7,13 +7,19 @@
     "lint": "eslint lib"
   },
   "keywords": [
-    "boi"
+    "boi",
+    "webpack"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:boijs/boi-compiler.git"
+  },
   "author": "zhoujunpeng <zjp0432@163.com>",
   "license": "MIT",
   "dependencies": {
-    "boi-aux-autoinstall": "^1.0.1",
-    "boi-utils": "0.0.2",
+    "boi-aux-autoinstall": "^1.0.2",
+    "boi-transpiler": "^0.0.1",
+    "boi-utils": "^0.0.3",
     "shelljs": "^0.7.8",
     "webpack": "^3.7.1"
   }
