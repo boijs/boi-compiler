@@ -1,6 +1,6 @@
 {
   "name": "boi-compiler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "boi compiler",
   "main": "lib/index.js",
   "scripts": {
@@ -17,9 +17,9 @@
   "author": "zhoujunpeng <zjp0432@163.com>",
   "license": "MIT",
   "dependencies": {
-    "boi-aux-autoinstall": "^1.0.2",
-    "boi-transpiler": "^0.0.1",
-    "boi-utils": "^0.0.3",
+    "boi-aux-autoinstall": "latest",
+    "boi-transpiler": "latest",
+    "boi-utils": "latest",
     "shelljs": "^0.7.8",
     "webpack": "^3.7.1"
   }
